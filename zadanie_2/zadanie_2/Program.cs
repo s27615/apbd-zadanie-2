@@ -7,13 +7,13 @@ Console.WriteLine("Modyfikacja 3");
 
 static double GetAverage(int[] tab)
 {
-    int suma2 = 0;
+    int sum = 0;
     foreach (var number in tab)
     {
-        suma2 += number;
+        sum += number;
     }
     
-    return (double) suma2 / tab.Length;
+    return (double) sum / tab.Length;
 }
 
 int[] tablica = {1, 2, 3, 5};
