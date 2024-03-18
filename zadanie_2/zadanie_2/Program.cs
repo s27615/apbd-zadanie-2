@@ -20,3 +20,14 @@ int[] tablica = {1, 2, 3, 5};
 double average = GetAverage(tablica);
 Console.WriteLine(average);
 
+public static int max(int[] tab)
+{
+    int max = tab[0];
+    for (int i = 0; i < tab.Length; i++)
+    {
+        if (tab[i] > max)
+            max = tab[i];
+    }
+
+    return max;
+}
